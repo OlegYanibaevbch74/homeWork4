@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Домашнее задание. Переменные. Часть 2!");
+
         //Задача 1
         System.out.println("задача 1");
         int a = 358642585;
@@ -14,6 +15,7 @@ public class Main {
         System.out.println("Значение переменной 'd' с типом float равно " +d );
         double e = 1.00000000000000017;
         System.out.println("Значение переменной 'e' с типом double равно " +e );
+
         //Задача 2
         System.out.println("задача 2");
         float d1 = 27.12f;
@@ -23,14 +25,31 @@ public class Main {
         char h1 = 569;
         short c1 = 27897;
         byte b1 = 67;
-        //Задача 3
-        System.out.println("задача 2");
 
+        //Задача 3
+        System.out.println("задача 3");
         byte lюдмилыПавловны = 23;
         byte aнныСергеевны = 27;
         byte eкатериныАндреевны = 30;
         short paper = 480;
         System.out.println("На каждого ученика рассчитано " +paper/(lюдмилыПавловны+aнныСергеевны+eкатериныАндреевны) +" листов бумаги.");
+
+        //Задача 4
+        System.out.println("задача 4");
+
+        byte b2 = 16;
+        byte b3 = 2;
+        byte b4 = 20;
+        byte b5 = 1;
+        byte b6 = 3;
+        int a1 = 24*60;
+        int a2 = 3*a1;
+        int a3 = 30*a1;
+        System.out.println("За " + b4 + " мин. машины произвела бутылок " + b4/b3*b2+  " штук.");
+        System.out.println("За " + b5 + " сут. машины произвела бутылок " + a1/b3*b2+  " штук.");
+        System.out.println("За " + b6 + " сут. машины произвела бутылок " + a2/b3*b2+  " штук.");
+        System.out.println("За " + b5 + " мес. машины произвела бутылок " + a3/b3*b2+  " штук.");
+
 
     }
 }
