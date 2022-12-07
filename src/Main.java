@@ -19,7 +19,7 @@ public class Main {
         //Задача 2
         System.out.println("задача 2");
         float d1 = 27.12f;
-        long f1 = 987678965549l;
+        long f1 = 987678965549L;
         double e1 = 2.786;
         boolean g1 = false;
         char h1 = 569;
@@ -50,6 +50,18 @@ public class Main {
         System.out.println("За " + b6 + " сут. машины произвела бутылок " + a2/b3*b2+  " штук.");
         System.out.println("За " + b5 + " мес. машины произвела бутылок " + a3/b3*b2+  " штук.");
 
+        //Задание 5
+        System.out.println("задача 5");
+
+        byte b7 = 120;
+        byte b8 = 2;
+        byte b9 = 4;
+        int a4 = b7/(b8+b9);
+        int a5 = a4*2;
+        int a6 = a4*4;
+        System.out.println("В школе, где " + a4 + " классов, нужно" + a5 + " банок белой краски и " + a6 + " банок коричневой краски.");
+
+        //Задание 6
 
     }
 }
