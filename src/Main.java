@@ -62,6 +62,19 @@ public class Main {
         System.out.println("В школе, где " + a4 + " классов, нужно" + a5 + " банок белой краски и " + a6 + " банок коричневой краски.");
 
         //Задание 6
+        System.out.println("задача 6");
+        byte banana=5;
+        byte weight1Banana=80;
+        int milk=200;
+        byte weight100MlMilk=105;
+        byte iceCream=2;
+        byte weight2IceCreamBars=100;
+        byte egg=4;
+        byte weight1Egg=70;
+        int breakfast=(banana*weight1Banana)+(milk/100*weight100MlMilk)+(iceCream*weight2IceCreamBars)+(egg*weight1Egg);
+        int breakfast2=(breakfast/1000);
+        System.out.println("вес такого спорт-завтрака "+breakfast+ " грамм");
+        System.out.println("вес такого спорт-завтрака "+breakfast2+ " килограмм");
 
     }
 }
