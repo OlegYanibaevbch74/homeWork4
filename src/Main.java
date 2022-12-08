@@ -92,9 +92,26 @@ public class Main {
         float totalMean=(total1+total2)/2;
         System.out.println("может потребоваться " +totalMean+ " дней в среднем, чтобы добиться результата похудения.");
 
-
-
-
-
+        //Задание 8
+        System.out.println("задача 8");
+        int мashasMonthlySalary = 67760;//зп Маши
+        int denisMonthlySalary = 83690;//зп Дениса
+        int сhrisMonthlySalary = 76230;//зп Кристины
+        float annualIncomeBeforeIncreaseMashas = мashasMonthlySalary*12;//годовой доход до повышения
+        float annualIncomeBeforeIncreaseDenis = denisMonthlySalary*12;
+        float annualIncomeBeforeIncreaseChris = сhrisMonthlySalary*12;
+        float growthPercentage = 10/100f;//10%
+        float increasedMonthlySalaryMasha=мashasMonthlySalary*growthPercentage;//на руб. повысилось
+        float increasedMonthlySalaryDenis=denisMonthlySalary*growthPercentage;
+        float increasedMonthlySalaryChris=сhrisMonthlySalary*growthPercentage;
+        float increasedSalaryMasha= мashasMonthlySalary+increasedMonthlySalaryMasha;//зп после повышения
+        float increasedSalaryDenis= denisMonthlySalary+increasedMonthlySalaryDenis;
+        float increasedSalaryChris= сhrisMonthlySalary+increasedMonthlySalaryChris;
+        float annualIncomeMasha=increasedSalaryMasha*12;//годовой доход после повышения
+        float annualIncomeDenis=increasedSalaryDenis*12;
+        float annualIncomeChris=increasedSalaryChris*12;
+        System.out.println("Маша теперь получает " + increasedSalaryMasha + " рублей. Годовой доход вырос на " +(annualIncomeMasha-annualIncomeBeforeIncreaseMashas)+ " рублей");
+        System.out.println("Маша теперь получает " + increasedSalaryDenis + " рублей. Годовой доход вырос на " +(annualIncomeDenis-annualIncomeBeforeIncreaseDenis )+ " рублей");
+        System.out.println("Маша теперь получает " + increasedSalaryChris + " рублей. Годовой доход вырос на " +(annualIncomeChris-annualIncomeBeforeIncreaseChris )+ " рублей");
     }
 }
