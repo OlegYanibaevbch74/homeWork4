@@ -5,12 +5,14 @@ public class Main {
 
         //Задача 1
         System.out.println("задача 1");
-        int a = 358642585;
-        System.out.println("Значение переменной 'a' с типом int равно " +a );
-        byte b = -96;
-        System.out.println("Значение переменной 'b' с типом byte равно " +b );
-        short c = 31624;
-        System.out.println("Значение переменной 'c' с типом scort равно " +c );
+        int machineWeight = 3;
+        System.out.println("Значение переменной 'machineWeight' с типом int равно " +machineWeight );
+        byte meatWeight = 6;
+        System.out.println("Значение переменной 'meatWeight' с типом byte равно " + meatWeight);
+        short amountMoney = 3156;
+        System.out.println("Значение переменной 'amountMoney' с типом scort равно " + amountMoney );
+        long kilometerstotal = 3_156_000_000L;
+        System.out.println("Значение переменной 'kilometersTotal' с типом scort равно " + kilometerstotal);
         float d = -3.00000004f;
         System.out.println("Значение переменной 'd' с типом float равно " +d );
         double e = 1.00000000000000017;
@@ -19,7 +21,7 @@ public class Main {
         //Задача 2
         System.out.println("задача 2");
         float d1 = 27.12f;
-        long f1 = 987678965549L;
+        long f1 = 987_678_965_549L;
         double e1 = 2.786;
         boolean g1 = false;
         char h1 = 569;
@@ -75,6 +77,24 @@ public class Main {
         int breakfast2=(breakfast/1000);
         System.out.println("вес такого спорт-завтрака "+breakfast+ " грамм");
         System.out.println("вес такого спорт-завтрака "+breakfast2+ " килограмм");
+
+        //Задание 7
+        System.out.println("задача 7");
+        byte loseWeightrKg=7;
+        int reset1WayGr=250;
+        float reset1WayKg=reset1WayGr/1000f;
+        int reset2WayGr=500;
+        float reset2WayKg=reset2WayGr/1000f;
+        float total1 = loseWeightrKg/reset1WayKg;
+        float total2 = loseWeightrKg/reset2WayKg;
+        System.out.println(+total1+" дней уйдёт на похудение, если спортсмен будет терять каждый день по 250 грамм.");
+        System.out.println(+total2+" дней уйдёт на похудение, если спортсмен будет терять каждый день по 500 грамм.");
+        float totalMean=(total1+total2)/2;
+        System.out.println("может потребоваться " +totalMean+ " дней в среднем, чтобы добиться результата похудения.");
+
+
+
+
 
     }
 }
